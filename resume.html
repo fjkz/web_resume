@@ -16,10 +16,14 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         font-size: 36pt;
+        text-align: center;
       }
       h5 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
+      }
+      address {
+        text-align: center;
       }
       ul {
         padding-left: 30px;
@@ -36,6 +40,8 @@
       }
       .row {
         text-align: left;
+        margin-top: 0px;
+        margin-bottom: 12px;
       }
       .date {
         font-size: smaller;
@@ -61,26 +67,28 @@
   <body>
     <div class="container">
 
-      <div class="page-header">
-        <h1>Jhon Smith</h1>
-      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="page-header">
+            <h1>Jhon Smith</h1>
+          </div>
 
-      <address>
-        <ul class="list-inline">
-          <li>Mobile: 998-9999-9999</li>
-          <li>E-mail: jhon.smith@example.com</li>
-          <li>99-99-999, Egg, Spam, Foo-city, Bar 999-9999</li>
-        </ul>
-      </address>
+          <address>
+            <ul class="list-inline">
+              <li>Mobile: 998-9999-9999</li>
+              <li>E-mail: jhon.smith@example.com</li>
+              <li>99-99-999, Egg, Spam, Foo-city, Bar 999-9999</li>
+            </ul>
+          </address>
+        </div>
+      </div>
 
       <div class="row">
         <div class="col-xs-2">
           <h5>OBJECTIVE</h5>
         </div>
         <div class="col-xs-10">
-          <p>
-            A Software Engineer in the field of xxx xxx xxx xxxxx xxx xxxxxx xxxx xxxxx xxxx xxxxxx xxxxx xxxx xxxxxxxx xxxxxx xxxxx.
-          </p>
+          A Software Engineer in the field of xxx xxx xxx xxxxx xxx xxxxxx xxxx xxxxx xxxx xxxxxx xxxxx xxxx xxxxxxxx xxxxxx xxxxx.
         </div>
       </div>
 
@@ -88,15 +96,19 @@
         <div class="col-xs-2">
           <h5>TECHNICAL SKILLS</h5>
         </div>
-          <div class="col-xs-10">
-          <p>
-            <dl class="dl-horizontal">
-              <dt>Programming Languages:</dt>
-              <dd>C, Java, Python, UNIX shell script</dd>
-              <dt>Development Tools:</dt>
-              <dd>Git, Subversion, Maven, JUnit, Jenkins</dd>
-            </dl>
-          </p>
+        <div class="col-xs-10">
+          <dl class="dl-horizontal">
+            <dt>Programming Languages:</dt>
+            <dd>C, Java, Python, UNIX shell script</dd>
+            <dt>Development Tools:</dt>
+            <dd>Git, Subversion, Maven, JUnit, Jenkins</dd>
+          </dl>
+          Specialized in
+          <ul>
+            <li>Hadoop,</li>
+            <li>Distributed File System,</li>
+            <li>Numerical Analysis.</li>
+          </ul>
         </div>
       </div>
 
@@ -107,10 +119,8 @@
         <div class="col-xs-10">
           <div class="row">
             <div class="col-xs-10">
-              <p>
-                <i>Software Developer</i><br/>
-                Foobar Ltd., Japan
-              </p>
+              <i>Software Developer</i><br/>
+              Foobar Ltd., Japan
             </div>
             <div class="col-xs-2">
               <div class="small">Apr. 2013 to Present</div>
@@ -138,10 +148,8 @@
         <div class="col-xs-10">
           <div class="row">
             <div class="col-xs-10">
-              <p>
-                <i>Master of Engineering,</i> Computer Science<br/>
-                Foo University, Japan
-              </p>
+              <i>Master of Engineering,</i> Computer Science<br/>
+              Foo University, Japan
             </div>
             <div class="col-xs-2">
               <div class="date">Mar. 2013</div>
@@ -149,10 +157,8 @@
           </div>
           <div class="row">
             <div class="col-xs-10">
-              <p>
-                <i>Bachelor of Engineering,</i> Computer Science<br/>
-                Bar University, Japan
-              </p>
+              <i>Bachelor of Engineering,</i> Computer Science<br/>
+              Bar University, Japan
             </div>
             <div class="col-xs-2">
               <div class="date">Mar. 2010</div>
@@ -168,10 +174,8 @@
         <div class="col-xs-10">
           <div class="row">
             <div class="col-xs-10">
-              <p>
-                <i>Associate Professional Engineer,</i> Information Engineering<br/>
-                Ministry of Education, Culture, Sports, Science and Technology, Japan
-              </p>
+              <i>Associate Professional Engineer,</i> Information Engineering<br/>
+              Ministry of Education, Culture, Sports, Science and Technology, Japan
             </div>
             <div class="col-xs-2">
               <div class="date">Dec. 2014</div>
@@ -179,10 +183,8 @@
           </div>
           <div class="row">
             <div class="col-xs-10">
-              <p>
-                <i>Database Specialist</i><br/>
-                Ministry of Economy, Trade and Industry, Japan
-              </p>
+              <i>Database Specialist</i><br/>
+              Ministry of Economy, Trade and Industry, Japan
             </div>
             <div class="col-xs-2">
               <div class="date">Dec. 2014</div>
@@ -190,10 +192,8 @@
           </div>
           <div class="row">
             <div class="col-xs-10">
-              <p>
-                <i>Applied Information Technology Engineer</i><br/>
-                Ministry of Economy, Trade and Industry, Japan
-              </p>
+              <i>Applied Information Technology Engineer</i><br/>
+              Ministry of Economy, Trade and Industry, Japan
             </div>
             <div class="col-xs-2">
               <div class="date">Jun. 2014</div>
@@ -201,8 +201,7 @@
           </div>
           <div class="row">
             <div class="col-xs-10">
-              <p>
-                TOEIC Score 850
+              TOEIC Score 850
             </div>
             <div class="col-xs-2">
               <div class="date">Nov. 2013</div>
